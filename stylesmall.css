@@ -1,0 +1,47 @@
+body{margin: 0; display: flex;}
+#pic1{
+    height: 30px;
+    width: 30px;
+}
+#colorchange{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+#textcolor{
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    color: yellow;
+    font-size: 5px;
+}
+#bgimg{
+    height: 30px;
+    width: 60px;
+    background-image: url(forest.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+#shape{
+    height: 30px; 
+    width: 30px;
+    background-color: blue;
+
+}
+#changefilter{
+    height: 30px;
+    width: 60px;
+    filter: grayscale(80%);
+}
+#container{
+    height: 60vh;
+    width: 10vh;
+    background-color: rgb(74, 74, 182);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+span > a{
+    color: #fff;
+
+}
